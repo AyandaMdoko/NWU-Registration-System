@@ -1,0 +1,70 @@
+<form action="./charge.php" method="post">
+<div class="container col-1">
+        <div class="row justify-content-center">
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<?php echo $stripe['publishable_key']; ?>"
+          data-name="Registration"
+          data-description="Online Payment"
+          data-amount="<?php echo ($total)?>>"
+          data-email="<?php echo $row['email']; ?>"
+          data-label="Pay Now"
+          data-allow-remember-me=false
+          
+          data-locale="auto"></script>
+          </div>
+          </div>
+</form>
+
+
+charge.php
+<?php
+session_start();
+  require_once('./config.php');
+  require("totalfee.php");
+   $roll_no = $_SESSION['roll_no'];
+
+  $token  = $_POST['stripeToken'];
+
+//   $email  = $_POST['stripeEmail'];
+
+//   $customer = \Stripe\Customer::create([
+//       'email' => $email,
+//       'source'  => $token,
+//   ]);
+
+ $charge = \Stripe\Charge::create([ 
+
+    //   
+    'source' => $token,
+      'amount'   => ($total),
+     'currency' => 'usd',
+       
+
+ ]);
+
+
+
+ 
+ // print_r($charge);
+
+  $amount = ($total);
+  $id = $charge['id'];
+  $transaction =$charge['balance_transaction'];
+ 
+
+  //insert query execute
+  $str = "INSERT INTO payment (roll_no,amount,trxid,transaction) VALUES ('$roll_no','$amount', '$id','$transaction')";
+  $stmt = $connect->prepare($str);
+$stmt->execute();
+echo '<pre>';
+echo'student: ' .$roll_no; 
+echo '<h1>Payment Succesful</h1>';
+echo'<pre>';
+echo 'payment Id: '.$id;
+echo'<pre>';
+echo'amount: '.($total);
+echo'<pre>';
+echo 'you will be redirected in 10 seconds. click to redirect now<a href= print.php> here</a>';
+header("refresh:10; url= print.php");
+
+?>

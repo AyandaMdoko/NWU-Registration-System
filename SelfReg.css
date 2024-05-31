@@ -1,0 +1,320 @@
+body{
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 170px;
+  padding-right: 17px;
+  padding-bottom: 50px;
+  background-color: rgb(248,248,248)
+}
+.header{
+  background-color: rgb(101, 46, 168);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(228,228,228);
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+}
+.nwu-pic{
+  height: 100px;
+  width: 120px;
+  margin-left: 0;
+  margin-right: 24px;
+}
+.right-section{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+
+  text-align:left;
+  margin-top: 18px;
+}
+.Logout-link{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 28px;
+  font-family: Roboto, Arial;
+  margin-top: 80px;
+  margin-left: 55px;
+  white-space: nowrap;
+}
+.Logout-link:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 15px;
+  font-family: Roboto, Arial;
+  margin-right: 100px;
+  white-space: nowrap;  
+}
+.middle-section{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+h1{
+  font-size: 45px;
+  font-family: Roboto, Arial;
+  color: rgba(204, 204, 204, 1);
+}
+.side-bar{
+  position:fixed;
+  background-color: rgb(101, 46, 168);
+  left: 0;
+  bottom: 0;
+  top: 100px;
+  width: 130px;
+  z-index: 200;
+}
+.sidebar-link{
+  min-height: 87px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: rgba(186, 140, 235, 1);
+  margin-bottom: 50px;
+}
+.sidebar-link:hover{
+  background-color: rgb(235,235,235);
+}
+.sidebar-btn{
+  min-height: 87px;
+  width: 130px;
+  background-color: rgba(186, 140, 235, 1);
+}
+.sidebar-btn:hover{
+  background-color: rgb(143, 104, 185);
+}
+.sidebar-icons{
+  height: 60px;
+  margin-bottom: 4px;
+}
+.sidebar-text{
+  color: White;
+  font-size: 15px;
+  font-family: Roboto, Arial; 
+  white-space: nowrap;
+}
+h2{
+  font-size: 40px;
+}
+.slider{
+  width: 1140px;
+  height: 500px;
+  border-radius: 10px;
+  overflow:hidden;
+  margin-right: 100px;
+ 
+}
+.slides{
+ width: 500%;
+ height: 500px;
+ display: flex;
+}
+.slides input{
+ display: none;
+}
+.slide{
+ width: 20%;
+ transition: 2s;
+ 
+}
+.slide img{
+ width: 1140px;
+ height: 388px;
+}
+.navigation-manual{
+ position: absolute;
+ width: 1140px;
+ margin-top: 5px;
+ display: flex;
+ justify-content: center;
+ 
+}
+.contents{
+  display: grid;
+  margin-left: 20px;
+}
+.textbox-year{
+  display: flex;
+  margin-left: 64px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.textbox-faculty{
+  display: flex;
+  margin-left: 83px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.textbox-couName{
+  display: flex;
+  margin-left: 35px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.textbox-program{
+  margin-top: 10px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+.textbox-stuNum{
+  display: flex;
+  margin-left: 35px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+.title-heading{
+  font-size: 15px;
+  color: black;
+}
+.textBox-block{
+  display: flex;
+  align-items: center;
+ 
+ }
+ table{
+  width: 700px;
+  text-align: left;
+  margin-bottom: 15px;
+ 
+}
+table, th, td{
+  border-width: 1px ;
+  border-style: solid;
+  border-color: #adacac;
+}
+th{
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  color: white;
+}
+.first-table-row{
+  background-color: #337ab7;
+}
+.textbox-mark_ALDE111E, .textbox-mark_ALDE122E, .textbox-mark_BMAN111E,
+.textbox-mark_BMAN121E, .textbox-mark_ICOM111, .textbox-mark_INFS113E,
+.textbox-mark_INFS112E, .textbox-mark_MTHS119, .textbox-mark_MTHS129{
+  width: 70px;
+  text-align: end;
+  background-color: #eee;
+  border-radius: 4px ;
+  font-size: 16px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-mark_ALDE111M, .textbox-mark_ALDE122M, .textbox-mark_ACFS111, 
+.textbox-mark_ACFS121, .textbox-mark_BMAN111M, .textbox-mark_BMAN121M,
+.textbox-mark_ECON112, .textbox-mark_ECON122, .textbox-mark_INFS113M,
+.textbox-mark_INFS122M, .textbox-mark_STFM111, .textbox-mark_STFM125{
+  width: 70px;
+  text-align: end;
+  background-color: #eee;
+  border-radius: 4px ;
+  font-size: 16px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-mark:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.textbox-level{
+  width: 150px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 4px ;
+  font-size: 16px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-level:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.checkbox{
+  width: 55px;
+  height: 16px;
+  padding-right: 10px;
+  margin-right: 50px;
+}
+.selfReg-main{
+  margin-top: 30px;
+  margin-left: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.selfReg-extended{
+  margin-top: 30px;
+  margin-left: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+}
+#selfReg-main, #selfReg-extended {
+  display: none;
+}
+.validate-btn{
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  background-color:  #337ab7;
+  color: white;
+  border-radius: 5px;
+}
+.Procceed-btn{
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  background-color:  #337ab7;
+  color: white;
+  border-radius: 5px;
+}
+/* Style for the information icon */
+  #info-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0074d9; /* Change the color to your preference */
+    margin-left: 230px;
+    margin-top: 5px;
+  }
+
+  /* Add a hover effect to change the color on mouse hover */
+  #info-icon:hover {
+    color: #ff5733; /* Change the hover color to your preference */
+  }
+
+

@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body{
+  margin: 0;
+  padding-top: 120px;
+  padding-left: 170px;
+  padding-right: 17px;
+  padding-bottom: 1000px;
+  background-color: rgb(248,248,248)
+}
+.header{
+  background-color: rgb(101, 46, 168);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(228,228,228);
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+}
+.nwu-pic{
+  height: 100px;
+  width: 120px;
+  margin-left: 0;
+  margin-right: 24px;
+}
+.right-section{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  color: white;
+
+  text-align:left;
+  margin-top: 18px;
+}
+.Logout-link{
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 28px;
+  font-family: Roboto, Arial;
+  margin-top: 80px;
+  margin-left: 55px;
+  white-space: nowrap;
+}
+.Logout-link:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 15px;
+  font-family: Roboto, Arial;
+  margin-right: 100px;
+  white-space: nowrap;  
+}
+.middle-section{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+h1{
+  font-size: 45px;
+  font-family: Roboto, Arial;
+  color: rgba(204, 204, 204, 1);
+}
+.side-bar{
+  position:fixed;
+  background-color: rgb(101, 46, 168);
+  left: 0;
+  bottom: 0;
+  top: 100px;
+  width: 130px;
+  z-index: 200;
+}
+.sidebar-link{
+  min-height: 87px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: rgba(186, 140, 235, 1);
+  margin-bottom: 50px;
+}
+.sidebar-link:hover{
+  background-color: rgb(235,235,235);
+}
+.sidebar-btn{
+  min-height: 87px;
+  width: 130px;
+  background-color: rgba(186, 140, 235, 1);
+}
+.sidebar-btn:hover{
+  background-color: rgb(143, 104, 185);
+}
+.sidebar-icons{
+  height: 60px;
+  margin-bottom: 4px;
+}
+.sidebar-text{
+  color: White;
+  font-size: 15px;
+  font-family: Roboto, Arial; 
+  white-space: nowrap;
+}
+h2{
+  font-size: 40px;
+  padding-top: 10px;
+  line-height: 5px;
+}
+
+.title{
+  position: absolute;
+  display: block;
+  margin-top: 338px;
+  color: white;
+  width: 1140px;
+  height: 50px;
+  
+}
+.title-link{
+  color: white;
+  padding-left: 400px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.title-info{
+
+  display: block;
+  justify-content: baseline;
+}
+.notice{
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.label-type{
+  font-size: 20px;
+}
+.TypeOfPayment{
+  margin-left: 25px;
+  height: 35px;
+  width: 200px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* ... (your existing CSS styles) ... */
+
+/* CSS for the centered divs */
+.hidden-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+  z-index: 999; /* Ensure it's on top of everything */
+}
+
+.centered-div {
+  background-color: white;
+  padding: 20px;
+  max-width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ... (your existing CSS styles) ... */
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+ 
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, purple 60%, purple 40.1%);
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .Title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+    border-radius: 3px;
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+    border-radius: 3px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+    border-radius: 3px;
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+.container form .row .col .flex1{
+    display: flex;
+    gap:10px;
+  }
+  
+  .container form .row .col .flex1 .inputBox{
+    margin-top: 15px;
+  }
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: purple;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+.col .c-number{
+	width: 100%;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	padding: 0 12px;
+	margin-top: 10px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fa-solid{
+	margin-right: 10px;
+	font-size: 22px;
+	color: #aaa;
+
+}
+.col .cvv-box{
+	border: 1px solid #aaa;
+	margin-top: 14px;
+	padding: 12px;
+	height: 45px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+	width: 108px;
+}
+.cc-cvv{
+	width: 60px;
+}
+.flex1
+{
+    width: 105px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  
+    margin: 0;
+}
+::selection{
+  color: #fff;
+  background: #6990F2;
+}
+.wrapper{
+
+  width: 430px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+}
+.wrapper header{
+  color: purple;
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper form{
+  height: 167px;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed purple;
+}
+form :where(i, p){
+  color: purple;
+}
+form i{
+  font-size: 50px;
+}
+form p{
+  margin-top: 20px;
+  font-size: 16px;
+}
+section .row{
+  margin-bottom: 10px;
+  background: #E9F0FF;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .row i{
+  color: #6990F2;
+  font-size: 30px;
+}
+section .details span{
+  font-size: 14px;
+}
+.progress-area .row .content{
+  width: 100%;
+  margin-left: 15px;
+}
+.progress-area .details{
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.progress-area .content .progress-bar{
+  height: 6px;
+  width: 100%;
+  margin-bottom: 4px;
+  background: #fff;
+  border-radius: 30px;
+}
+.content .progress-bar .progress{
+  height: 100%;
+  width: 0%;
+  background: #6990F2;
+  border-radius: inherit;
+}
+.uploaded-area{
+  max-height: 232px;
+  overflow-y: scroll;
+}
+.uploaded-area.onprogress{
+  max-height: 150px;
+}
+.uploaded-area::-webkit-scrollbar{
+  width: 0px;
+}
+.uploaded-area .row .content{
+  display: flex;
+  align-items: center;
+}
+.uploaded-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.uploaded-area .row .details .size{
+  color: #404040;
+  font-size: 11px;
+}
+.uploaded-area i.fa-check{
+  font-size: 16px;
+}
+
+* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.success-icon {
+  color: green;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#proceedButton {
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.exit-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.exit-icon i {
+  display: flex;
+  font-size: 20px;
+  color: #f31818;
+  background-color: white;
+  border-radius: 15px;
+  width: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  margin-top: 20px;
+}
+
+.cc-number {
+  width: 310px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  height: 15px;
+}
+
+.card-type-display {
+  font-size: 16px;
+  color: #555;
+  padding-top: 5px;
+}
+.uploads{
+  display: flex;
+}
+.upload-doc, .upload-btn{
+  width: 48%;
+  padding:10px;
+  font-size: 15px;
+  background: purple;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.upload-doc, .clear-btn{
+  width: 48%;
+  padding:10px;
+  font-size: 15px;
+  background: purple;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+

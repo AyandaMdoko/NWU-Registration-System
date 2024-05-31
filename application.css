@@ -1,0 +1,551 @@
+.header{
+background-color: rgba(113, 69, 168, 1);
+height: 100px;
+display: flex;
+justify-content: space-between;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color: rgb(228,228,228);
+z-index: 100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.top-section-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.nwu-pic{
+  height: 100px;
+  margin-left: 0;
+  margin-right: 24px;
+  
+}
+.middle-section{
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 450px;
+  font-size: 35px;
+  font-size: 50px;
+}
+body{
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 96px;
+  padding-right: 24px;
+  padding-bottom: 2000px;
+  background-color: rgb(248,248,248)
+}
+h1{
+  font-family: Roboto, Arial;
+  font-size: 26px;
+  font-weight: 500;
+}
+p{
+  font-family: Roboto, Arial;
+  font-size: 20px;
+}
+.information-section{
+
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.information-block{
+  display: flex;
+  align-items: center;
+  background-color: rgb(14, 143, 100);
+}
+.textBox-block{
+ display: flex;
+ align-items: center;
+
+}
+.textbox{
+  margin-right: 50px;
+  width: 250px;
+  height: 38px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.search-btn
+{
+  
+  margin-top: 5px;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  transition: background-color 1s;
+  width: 100px;
+  height: 40px;
+
+}
+.textbox-initials, .textbox-Title{
+  width: 100px;
+  font-size: 10px;
+  font-weight: none;
+  font-size: 18px;
+  outline: none;
+  background-color: #eee;
+  border-width: 1px;
+  border-radius: 2px;
+  height: 38px;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-Gender{
+  width: 120px;
+  font-size: 10px;
+  font-weight: none;
+  font-size: 20px;
+  outline: none;
+  background-color: #eee;
+  border-width: 1px;
+  border-radius: 2px;
+  height: 38px;
+}
+.selectionBox{
+  margin-right: 50px;
+  width: 235px;
+  height: 40px;
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+}
+.DOB{
+  width: 150px;
+  outline: none;
+  font-family: Roboto, Arial;
+  background-color: #eee;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 18px;
+  height: 38px;
+}
+
+h2{
+  font-family: Roboto, Arial;
+  font-size: 26px;
+  font-weight: 300;
+  white-space: nowrap;
+  color: brown;
+}
+.save-btn{
+  margin-top: 15px;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(30,118,218);
+  transition: background-color 1s;
+  width: 100px;
+  height: 40px;
+}
+.previous-btn{
+  margin-top: 15px;
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(30,118,218);
+  transition: background-color 1s;
+  width: 120px;
+  height: 40px;
+}
+.refresh-btn{
+  background-color: rgb(30, 118, 218) ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+  width: 120px;
+  height: 40px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.cancel-btn{
+  background-color: rgb(30, 118, 218) ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+  width: 120px;
+  height: 40px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.next-btn{
+  background-color: rgb(30, 118, 218) ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+  width: 120px;
+  height: 40px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.previous-btn:hover{
+  background-color: rgb(94, 113, 134) ;
+}
+.refresh-btn:hover{
+  background-color: rgb(94, 113, 134) ;
+}
+.cancel-btn:hover{
+  background-color: rgb(94, 113, 134) ;
+}
+.next-btn:hover{
+  background-color: rgb(94, 113, 134) ;
+}
+.save-btn:hover{
+  background-color: rgb(94, 113, 134) ;
+}
+.Biographical-btn{
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+}
+.Biographical-btn:hover{
+  background-color: #1a8caf;
+}
+.ParentsInfo-btn{
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+}
+.ParentsInfo-btn:hover{
+  background-color: #1a8caf;
+}
+.Guardian-btn{
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+}
+.Guardian-btn:hover{
+  background-color: #1a8caf;
+}
+.ContactInfo-btn{
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+}
+.ContactInfo-btn:hover{
+  background-color: #1a8caf;
+}
+.CourseInfo-btn{
+  background-color: #2aabd2;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s;
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+
+}
+.CourseInfo-btn:hover{
+  background-color: #1a8caf;
+}
+.req{
+  color: rgb(221, 25, 25);
+  font-size: 20px;
+  font-weight: bold;
+}
+.url{
+  text-decoration: none;
+  color: white;
+}
+.selection-BOX{
+  width: 55px;
+  height: 38px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: #eee;
+}
+.textbox-email{
+  margin-right: 50px;
+  width: 300px;
+  height: 38px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-email:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.textbox-address{
+  margin-right: 50px;
+  width: 400px;
+  height: 38px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-address:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.textbox-contact{
+  margin-top: 15px;
+  margin-right: 50px;
+  width: 200px;
+  height: 38px;
+  font-size: 20px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox_contact{
+  margin-top: 15px;
+  margin-right: 50px;
+  width: 70px;
+  height: 38px;
+  font-size: 18px ;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox_Contact{
+  margin-top: 15px;
+  margin-right: 60px;
+  width: 200px;
+  height: 38px;
+  font-size: 18px ;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.border {
+  border: 2px solid black;
+  height: 180px;
+  margin-left: 5px;
+  background-color: lightgrey;
+  padding: 1px;
+ }
+
+.first-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.first-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.second-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.textbox-div{
+  margin-right: 50px;
+  margin-top: 5px;
+  
+}
+.selectionBOX{
+  width: 55px;
+  height: 38px;
+  font-family: Roboto, Arial;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: #eee;
+  margin-top: 8px;
+  margin-right: 100px;
+}
+.textbox-faculty{
+  margin-right: 50px;
+  width: 310px;
+  height: 38px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-year{
+  margin-right: 50px;
+  width: 50px;
+  height: 38px;
+  font-size: 18px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: #eee;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.checkbox{
+  width: 55px;
+  height: 16px;
+  padding-right: 10px;
+  margin-right: 50px;
+}
+li{
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.textbox-mark{
+  width: 70px;
+  text-align: end;
+  background-color: #eee;
+  border-radius: 4px ;
+  font-size: 16px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-mark:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+.textbox-level{
+  width: 150px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 4px ;
+  font-size: 16px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.textbox-level:hover{
+  outline-style: solid;
+  outline-width: 0.15px ;
+  outline-color: purple;
+}
+
+
+.btn-delete{
+   width: 39px;
+   height: 27px;
+}
+.icon-delete{
+  width: 25px;
+  object-fit: cover;
+}
+table{
+  width: 700px;
+  text-align: left;
+  margin-bottom: 15px;
+ 
+}
+.firstYear-mainstream{
+  visibility: hidden;
+}
+.firstYear-Extended{
+  visibility: hidden;
+}
+.SecondYear-mainstream{
+  visibility: hidden;
+}
+.SecondYear-Extended{
+  visibility: hidden;
+}
+.ThirdYear-Extended{
+  visibility: hidden;
+}
+table, th, td{
+  border-width: 1px ;
+  border-style: solid;
+  border-color: #adacac;
+}
+.first-table-row{
+  background-color: #337ab7;
+}
+th{
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  color: white;
+}
+
+.Register-btn{
+  background-color: rgb(30, 118, 218) ;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+  width: 120px;
+  height: 40px;
+  margin-top: 13px;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+

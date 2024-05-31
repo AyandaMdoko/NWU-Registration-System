@@ -1,0 +1,716 @@
+.container{
+    max-width: 1200px;
+    height: 930px;
+    border-width: 2px;
+    border-color: purple;
+    border-style:ridge;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.container header{
+    position: relative;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.container header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+.form.active {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    white-space: nowrap;
+    font-size: 25px;
+}
+.title-bio{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 300;
+    white-space:nowrap;
+}
+.contents{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-right: 20px;
+  }
+.textbox-nation{
+    display: flex;
+    margin-left: 170px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.textbox-surname{
+    display: flex;
+    margin-left: 190px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.textbox-title{
+    display: flex;
+    margin-left: 225px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.textbox-gender{
+    display: flex;
+    margin-left: 202px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+
+.textbox-nickname{
+    display: flex;
+    margin-left: 180px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.textbox-mainame{
+    display: flex;
+    margin-left: 149px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.textbox-population{
+    display: flex;
+    margin-left: 120px;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    
+}
+.textbox-devices{
+    display: flex;
+    margin-left: 90px;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+}
+.textbox-use{
+    display: flex;
+    margin-left: 37px;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px; 
+    background-color: #EEEEEE;
+    font-size: 18px;
+}
+.textbox-initials{
+    display: flex;
+    margin-left: 180px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-DOB{
+    display: flex;
+    margin-left: 130px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-date{
+    display: flex;
+    margin-left: 122px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-ID{
+    display: flex;
+    margin-left: 97px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-id{
+    display: flex;
+    margin-left: 97px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-email{
+    display: flex;
+    margin-left: 113px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-EMAIL{
+    display: flex;
+    margin-left: 155px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-A-email{
+    display: flex;
+    margin-left: 100px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox-firstN{
+    display: flex;
+    margin-left: 138px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-status{
+    display: flex;
+    margin-left: 117px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-sur{
+    display: flex;
+    margin-left: 200px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox-init{
+    display: flex;
+    margin-left: 215px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-mai{
+    display: flex;
+    margin-left: 155px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox-occup{
+    display: flex;
+    margin-left: 175px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-employer{
+    display: flex;
+    margin-left: 189px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-address1{
+    display: flex;
+    margin-left: 145px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-address3{
+    display: flex;
+    margin-left: 108px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-addres3{
+    display: flex;
+    margin-left: 152px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-addres1{
+    display: flex;
+    margin-left: 103px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-uniNum{
+    display: flex;
+    margin-left: 75px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox-country{
+    display: flex;
+    margin-left: 202px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-zip{
+    display: flex;
+    margin-left: 193px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox-Zcode{
+    display: flex;
+    margin-left: 149px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox-townP{
+    display: flex;
+    margin-left: 85px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox_acc{
+    display: flex;
+    margin-left: 112px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;  
+}
+.textbox_accNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox_home{
+    display: flex;
+    margin-left: 112px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+
+.textbox_homeNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox_Home{
+    display: flex;
+    margin-left: 154px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+
+.textbox_HomeNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox_cell{
+    display: flex;
+    margin-left: 145px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox_Cell{
+    display: flex;
+    margin-left: 186px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox_CellNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox_cellNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.textbox_Acc{
+    display: flex;
+    margin-left: 75px;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px; 
+}
+.textbox_AccNum{
+    display: flex;
+    margin-left: 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    font-size: 10px; 
+    background-color: #EEEEEE;
+    font-size: 19px;
+}
+.selectionbox-R{
+    display: flex;
+    margin-left: 228px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.selectionbox-C{
+    display: flex;
+    margin-left: 165px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.selectionbox-CO{
+    display: flex;
+    margin-left: 209px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;  
+}
+.selectionbox-T{
+    display: flex;
+    margin-left: 196px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.selectionbox-RA{
+    display: flex;
+    margin-left: 72px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.selectionbox-HL{
+    display: flex;
+    margin-left: 107px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE; 
+}
+.selectionbox-Co{
+    display: flex;
+    margin-left: 210px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.selectionbox-CL{
+    display: flex;
+    margin-left: 26px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE; 
+}
+.selectionbox-dis{
+    display: flex;
+    margin-left: 75px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px;
+}
+.selectionbox-asa{
+    display: flex;
+    margin-left: 90px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px;
+}
+.selectionbox-COU{
+    display: flex;
+    margin-left: 120px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-COS{
+    display: flex;
+    margin-left: 90px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-P{
+    display: flex;
+    margin-left: 148px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-ex{
+   display: flex;
+    margin-left: 88px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-N{
+    display: flex;
+    margin-left: 185px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-PD{
+    display: flex;
+    margin-left: 96px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-PA{
+    display: flex;
+    margin-left: 83px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px;
+}
+.selectionbox-SA{
+    display: flex;
+    margin-left: 135px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px; 
+}
+.selectionbox-AS{
+    display: flex;
+    margin-left: 135px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px;  
+}
+.selectionbox-PM{
+    display: flex;
+    margin-left: 120px;
+    height: 38px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+    padding-right: 40px;  
+}
+.textbox-EMAIL {
+    display: flex;
+    margin-left: 110px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+.Update-btn{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    background-color:  #337ab7;
+    color: white;
+    border-radius: 5px;
+}
+.Next-btn{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    background-color:  #337ab7;
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.border {
+    border: 2px solid black;
+    height: 180px;
+    margin-left: 5px;
+    background-color: lightgrey;
+    padding: 1px;
+   }

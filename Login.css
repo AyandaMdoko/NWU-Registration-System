@@ -1,0 +1,250 @@
+.header{
+  background-color: rgb(101, 46, 168);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(228,228,228);
+  z-index: 100;
+  }
+  .left-section{
+    display: flex;
+  }
+  .nwu-pic{
+    height: 100px;
+    margin-left: 0;
+    margin-right: 24px;
+  }
+  .middle-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    font-size: 35px;
+    font-size: 50px;
+  }
+  .Reg-Process{
+    color: rgba(226, 225, 235, 1);
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 70px;
+    white-space: nowrap;
+    font-family: Roboto, Arial;
+  }
+  .Terms-con{
+    color: rgba(226, 225, 235, 1);
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 70px;
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-family: Roboto, Arial;
+  }
+  .sign-up{
+    width: 180px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(160, 158, 191, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto, Arial;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+  }
+  .sign-up:hover{
+   background-color:  rgb(46, 46, 49);
+  }
+  body{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(248,248,248)
+  }
+  .home-page-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 14px;
+    width: 1400px;
+    height: 600px;
+  }
+  .login-form{
+   display: flex;
+  }
+  .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70vh;
+    overflow: hidden;
+  }
+  .home-icon{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 400px;
+    position: absolute;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-30px);
+  }
+  }
+  .icon-p{
+    font-size: 35px;
+    font-family: Roboto, Arial;
+    margin-top: 18px;
+    margin-left: 230px;
+  }
+  .main-section{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1f 1f;
+  }
+  .icon-block{
+    background: linear-gradient(to right bottom,rgba(171, 112, 234, 1), 
+    rgba(186, 140, 235, 0));
+  }
+  h1{
+  font-size: 35px;
+  font-style: Roboto, Arial;
+  font-weight: 500;
+  }
+  .information{
+    background-color: blue;
+    height: 90px;
+    margin-top:300px;
+    margin-right: 200px;
+  }
+  .title-info{
+    height: 90px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .title-head{
+    font-size: 45px;
+    font-family: Roboto, Arial;
+    color: rgba(204, 204, 204, 1);
+    margin-left: 90px;
+
+}
+  .forgot-password{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, Arial;
+  }
+  .forgot-password:hover{
+    text-decoration: underline;
+  }
+  p{
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-top: 0;
+  }
+  .textB-uniEmail{
+    width: 280px;
+    height: 35px;
+    font-size: 17px;
+    font-family: Roboto, Arial;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: #eee;
+    outline: none;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+  }
+  .textB-uniEmail:hover{
+    outline-style: solid;
+    outline-width: 0.15px ;
+    outline-color: purple;
+  }
+  .login-btn{
+    margin-top:15px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    width: 180px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(124, 119, 187);
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto, Arial;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 1s;
+    
+  }
+  .login-btn:hover{
+    background-color:  rgb(46, 46, 49);
+  }
+  .signUp-link{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, Arial;
+  }
+  .signUp-link:hover{
+    text-decoration: underline;
+  }
+  .eye-icon{
+    width: 35px;
+    cursor: pointer;
+  }
+  .textB-password{
+    width: 280px;
+    height: 35px;
+    
+    font-size: 17px;
+    font-family: Roboto, Arial;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: #eee;
+    outline: none;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+  }
+  .password-info{
+    display: flex;
+    margin-top: 15px;
+    padding-top: 1px;
+    align-items: center;
+  }
+  .p-paragraph{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+  }
+  .stuNum-text{
+   margin-top: 10px;
+  }
+  .help-block{
+    margin-top: 48px;
+  }
+  .invalid{
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .error-msg{
+    display: block;
+    width: 100%;
+    padding:10px 0;
+    margin:10px 0;
+    background-color: crimson;
+    font-size: 20px;
+    color:#fff;
+  }
+  

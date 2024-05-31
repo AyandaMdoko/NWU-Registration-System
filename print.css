@@ -1,0 +1,46 @@
+/* Example print.css for POR-Page */
+#POR-Page {
+  display: block; /* Ensure the content is visible when printing */
+}
+
+/* Apply styles to elements within POR-Page */
+.sidebar-link, .header, .POR-btn{
+  display: none;
+}
+.nwu-por-logo{
+  margin-left: 100px;
+}
+.text-stu,.text-num, .text-fac, .text-name{
+  display: none;
+}
+.textbox-name{
+  font-size: 25px;
+  margin-left: 100px;
+  border: none;
+}
+.textbox-num{
+  font-size: 25px;
+  margin-left: 200px;
+  border: none;
+}
+.textbox-qua{
+  font-size: 25px;
+  width: 425px;
+ margin-left: 50px;
+  border: none;
+}
+.textbox-email{
+  font-size: 25px;
+  width: 400px;
+  margin-left: 90px;
+  border: none;
+
+}
+table{
+font-size: 20px;
+width: 700px;
+ 
+}
+h2{
+  font-size: 35px;
+}
